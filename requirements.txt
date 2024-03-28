@@ -1,4 +1,3 @@
 Flask==3.0.1
 pymongo==4.6.2
 python-dotenv==1.0.1
-guincorn
