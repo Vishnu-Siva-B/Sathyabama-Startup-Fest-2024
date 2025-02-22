@@ -10,8 +10,9 @@
    <!-- icon -->
    <link rel="icon" type="image/x-icon" href="{{url_for('static', filename='user/images/loader.png')}}">
 
-   <!-- swiper -->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+   <!-- Swiper CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
 
    <!-- ico fonts -->
    <link rel="stylesheet" href="{{url_for('static', filename='user/styles/xsIcon.css')}}">
@@ -24,7 +25,7 @@
 
    <!-- FontAwesome -->
    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-   
+
    <!--Event Slider-->
    <script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 
@@ -51,7 +52,7 @@
          </div>
       </div>
    </div>
-  
+
    <!-- PAGE LOADER END -->
 
    <div class="scroll-up-btn">
@@ -78,7 +79,7 @@
          </div>
       </div>
    </nav>
-  
+
 
 
    <!-- Home start -->
@@ -126,28 +127,37 @@
                </div>
 
                <div class="image-container">
-                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split1.jpg')}}" style="--i: 2" alt="" />
+                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split1.jpg')}}"
+                     style="--i: 2" alt="" />
 
-                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split2.jpg')}}" style="--i: 6" alt="" />
+                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split2.jpg')}}"
+                     style="--i: 6" alt="" />
 
-                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split3.jpg')}}" style="--i: 8" alt="" />
+                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split3.jpg')}}"
+                     style="--i: 8" alt="" />
 
-                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split4.jpg')}}" style="--i: 4" alt="" />
+                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split4.jpg')}}"
+                     style="--i: 4" alt="" />
 
-                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split5.jpg')}}" style="--i: 1" alt="" />
+                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split5.jpg')}}"
+                     style="--i: 1" alt="" />
 
-                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split6.jpg')}}" style="--i: 9" alt="" />
+                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split6.jpg')}}"
+                     style="--i: 9" alt="" />
 
-                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split7.jpg')}}" style="--i: 7" alt="" />
+                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split7.jpg')}}"
+                     style="--i: 7" alt="" />
 
-                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split8.jpg')}}" style="--i: 5" alt="" />
+                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split8.jpg')}}"
+                     style="--i: 5" alt="" />
 
-                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split9.jpg')}}" style="--i: 3" alt="" />
+                  <img class="item" src="{{url_for('static', filename='user/images/event_overview/split9.jpg')}}"
+                     style="--i: 3" alt="" />
                </div>
             </div>
 
          </div>
-      </div>  
+      </div>
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
    </section>
@@ -179,8 +189,10 @@
                               <div class="wgh-slider-item">
                                  <div class="wgh-slider-item__inner">
                                     <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image"
-                                          src="{{url_for('static', filename='user/images/all_events/round_table.jpeg')}}" alt="The 5th Exotic" />
-                                       <figcaption class="wgh-slider-item-figure__caption"><a href="{{url_for('user.round_table')}}">Round
+                                          src="{{url_for('static', filename='user/images/all_events/round_table.jpeg')}}"
+                                          alt="The 5th Exotic" />
+                                       <figcaption class="wgh-slider-item-figure__caption"><a
+                                             href="{{url_for('user.round_table')}}">Round
                                              Table</a></figcaption>
                                     </figure>
                                     <label class="wgh-slider-item__trigger" for="slide-1"
@@ -190,8 +202,10 @@
                               <div class="wgh-slider-item">
                                  <div class="wgh-slider-item__inner">
                                     <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image"
-                                          src="{{url_for('static', filename='user/images/all_events/tech_talk.jpeg')}}" alt="The 5th Exotic" />
-                                       <figcaption class="wgh-slider-item-figure__caption"><a href="{{url_for('user.tech_talks')}}">Tech
+                                          src="{{url_for('static', filename='user/images/all_events/tech_talk.jpeg')}}"
+                                          alt="The 5th Exotic" />
+                                       <figcaption class="wgh-slider-item-figure__caption"><a
+                                             href="{{url_for('user.tech_talks')}}">Tech
                                              Talks</a></figcaption>
                                     </figure>
                                     <label class="wgh-slider-item__trigger" for="slide-2"
@@ -201,8 +215,10 @@
                               <div class="wgh-slider-item">
                                  <div class="wgh-slider-item__inner">
                                     <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image"
-                                          src="{{url_for('static', filename='user/images/all_events/mou.jpeg')}}" alt="The 5th Exotic" />
-                                       <figcaption class="wgh-slider-item-figure__caption"><a href="{{url_for('user.mou_singing')}}">MoU
+                                          src="{{url_for('static', filename='user/images/all_events/mou.jpeg')}}"
+                                          alt="The 5th Exotic" />
+                                       <figcaption class="wgh-slider-item-figure__caption"><a
+                                             href="{{url_for('user.mou_singing')}}">MoU
                                              Signing</a></figcaption>
                                     </figure>
                                     <label class="wgh-slider-item__trigger" for="slide-3"
@@ -212,8 +228,10 @@
                               <div class="wgh-slider-item">
                                  <div class="wgh-slider-item__inner">
                                     <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image"
-                                          src="{{url_for('static', filename='user/images/all_events/bootcamp.jpeg')}}" alt="The 5th Exotic" />
-                                       <figcaption class="wgh-slider-item-figure__caption"><a href="{{url_for('user.bootcamps')}}">Boot
+                                          src="{{url_for('static', filename='user/images/all_events/bootcamp.jpeg')}}"
+                                          alt="The 5th Exotic" />
+                                       <figcaption class="wgh-slider-item-figure__caption"><a
+                                             href="{{url_for('user.bootcamps')}}">Boot
                                              Camps</a></figcaption>
                                     </figure>
                                     <label class="wgh-slider-item__trigger" for="slide-4"
@@ -223,9 +241,11 @@
                               <div class="wgh-slider-item">
                                  <div class="wgh-slider-item__inner">
                                     <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image"
-                                          src="{{url_for('static', filename='user/images/all_events/startup_show.jpeg')}}" alt="RYSY - Traveler LP" />
+                                          src="{{url_for('static', filename='user/images/all_events/startup_show.jpeg')}}"
+                                          alt="RYSY - Traveler LP" />
                                        <figcaption class="wgh-slider-item-figure__caption"><a
-                                             href="{{url_for('user.startup_showcase')}}">Startup Show-Case</a></figcaption>
+                                             href="{{url_for('user.startup_showcase')}}">Startup Show-Case</a>
+                                       </figcaption>
                                     </figure>
                                     <label class="wgh-slider-item__trigger" for="slide-5"
                                        title="Show product 5"></label>
@@ -234,8 +254,10 @@
                               <div class="wgh-slider-item">
                                  <div class="wgh-slider-item__inner">
                                     <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image"
-                                          src="{{url_for('static', filename='user/images/all_events/tech_exhibit.jpeg')}}" alt="RYSY - Traveler LP" />
-                                       <figcaption class="wgh-slider-item-figure__caption"><a href="{{url_for('user.tech_exhibits')}}">Tech
+                                          src="{{url_for('static', filename='user/images/all_events/tech_exhibit.jpeg')}}"
+                                          alt="RYSY - Traveler LP" />
+                                       <figcaption class="wgh-slider-item-figure__caption"><a
+                                             href="{{url_for('user.tech_exhibits')}}">Tech
                                              Exhibits</a></figcaption>
                                     </figure>
                                     <label class="wgh-slider-item__trigger" for="slide-6"
@@ -245,8 +267,10 @@
                               <div class="wgh-slider-item">
                                  <div class="wgh-slider-item__inner">
                                     <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image"
-                                          src="{{url_for('static', filename='user/images/all_events/master_class.jpeg')}}" alt="RYSY - Traveler LP" />
-                                       <figcaption class="wgh-slider-item-figure__caption"><a href="{{url_for('user.master_class')}}">Master
+                                          src="{{url_for('static', filename='user/images/all_events/master_class.jpeg')}}"
+                                          alt="RYSY - Traveler LP" />
+                                       <figcaption class="wgh-slider-item-figure__caption"><a
+                                             href="{{url_for('user.master_class')}}">Master
                                              Class</a></figcaption>
                                     </figure>
                                     <label class="wgh-slider-item__trigger" for="slide-7"
@@ -256,7 +280,8 @@
                               <div class="wgh-slider-item">
                                  <div class="wgh-slider-item__inner">
                                     <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image"
-                                          src="{{url_for('static', filename='user/images/all_events/ideathon.jpeg')}}" alt="RYSY - Traveler LP" />
+                                          src="{{url_for('static', filename='user/images/all_events/ideathon.jpeg')}}"
+                                          alt="RYSY - Traveler LP" />
                                        <figcaption class="wgh-slider-item-figure__caption"><a
                                              href="{{url_for('user.ideathons')}}">Ideathons</a></figcaption>
                                     </figure>
@@ -267,9 +292,11 @@
                               <div class="wgh-slider-item">
                                  <div class="wgh-slider-item__inner">
                                     <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image"
-                                          src="{{url_for('static', filename='user/images/all_events/investor_connect.jpeg')}}" alt="RYSY - Traveler LP" />
+                                          src="{{url_for('static', filename='user/images/all_events/investor_connect.jpeg')}}"
+                                          alt="RYSY - Traveler LP" />
                                        <figcaption class="wgh-slider-item-figure__caption"><a
-                                             href="{{url_for('user.investor_connect')}}">Investor Connect</a></figcaption>
+                                             href="{{url_for('user.investor_connect')}}">Investor Connect</a>
+                                       </figcaption>
                                     </figure>
                                     <label class="wgh-slider-item__trigger" for="slide-9"
                                        title="Show product 9"></label>
@@ -278,8 +305,10 @@
                               <div class="wgh-slider-item">
                                  <div class="wgh-slider-item__inner">
                                     <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image"
-                                          src="{{url_for('static', filename='user/images/all_events/intern_connect.jpeg')}}" alt="RYSY - Traveler LP" />
-                                       <figcaption class="wgh-slider-item-figure__caption"><a href="{{url_for('user.intern_connect')}}">Intern
+                                          src="{{url_for('static', filename='user/images/all_events/intern_connect.jpeg')}}"
+                                          alt="RYSY - Traveler LP" />
+                                       <figcaption class="wgh-slider-item-figure__caption"><a
+                                             href="{{url_for('user.intern_connect')}}">Intern
                                              Connect</a></figcaption>
                                     </figure>
                                     <label class="wgh-slider-item__trigger" for="slide-10"
@@ -339,7 +368,9 @@
                      </div>
                      <!-- Speaker -->
                      <div class="speaker">
-                        <img style="height:65px; width:65px;" src="{{url_for('static', filename='user/images/event_schedule_day1/speaker1.jpg')}}" alt="speaker-thumb-one">
+                        <img style="height:65px; width:65px;"
+                           src="{{url_for('static', filename='user/images/event_schedule_day1/speaker1.jpg')}}"
+                           alt="speaker-thumb-one">
                         <span class="name">Dr. Bharathi</span>
                      </div>
                      <!-- Subject -->
@@ -358,7 +389,9 @@
                      </div>
                      <!-- Speaker -->
                      <div class="speaker">
-                        <img style="height:65px; width:65px;" src="{{url_for('static', filename='user/images/event_schedule_day1/speaker2.jpg')}}" alt="speaker-thumb-two">
+                        <img style="height:65px; width:65px;"
+                           src="{{url_for('static', filename='user/images/event_schedule_day1/speaker2.jpg')}}"
+                           alt="speaker-thumb-two">
                         <span class="name">Dr.Shahul Hameed Faizee</span>
                      </div>
                      <!-- Subject -->
@@ -377,7 +410,9 @@
                      </div>
                      <!-- Speaker -->
                      <div class="speaker">
-                        <img style="height:65px; width:65px;" src="{{url_for('static', filename='user/images/event_schedule_day1/speaker3.jpg')}}" alt="speaker-thumb-three">
+                        <img style="height:65px; width:65px;"
+                           src="{{url_for('static', filename='user/images/event_schedule_day1/speaker3.jpg')}}"
+                           alt="speaker-thumb-three">
                         <span class="name">Dr. Y.Swarnalatha</span>
                      </div>
                      <!-- Subject -->
@@ -396,7 +431,9 @@
                      </div>
                      <!-- Speaker -->
                      <div class="speaker">
-                        <img style="height:65px; width:65px;" src="{{url_for('static', filename='user/images/event_schedule_day1/speaker5.jpg')}}" alt="speaker-thumb-four">
+                        <img style="height:65px; width:65px;"
+                           src="{{url_for('static', filename='user/images/event_schedule_day1/speaker5.jpg')}}"
+                           alt="speaker-thumb-four">
                         <span class="name">Dr.E.John Bruce</span>
                      </div>
                      <!-- Subject -->
@@ -415,7 +452,9 @@
                      </div>
                      <!-- Speaker -->
                      <div class="speaker">
-                        <img style="height:65px; width:65px;" src="{{url_for('static', filename='user/images/event_schedule_day1/speaker5.jpg')}}" alt="speaker-thumb-five">
+                        <img style="height:65px; width:65px;"
+                           src="{{url_for('static', filename='user/images/event_schedule_day1/speaker5.jpg')}}"
+                           alt="speaker-thumb-five">
                         <span class="name">Dr.G.Bhuvaneshwari</span>
                      </div>
                      <!-- Subject -->
@@ -448,7 +487,9 @@
                      </div>
                      <!-- Speaker -->
                      <div class="speaker">
-                        <img style="height:65px; width:65px;" src="{{url_for('static', filename='user/images/event_schedule_day2/speaker1.jpg')}}" alt="speaker-thumb-one">
+                        <img style="height:65px; width:65px;"
+                           src="{{url_for('static', filename='user/images/event_schedule_day2/speaker1.jpg')}}"
+                           alt="speaker-thumb-one">
                         <span class="name">Dr. Shanmuga Pandiyan</span>
                      </div>
                      <!-- Subject -->
@@ -467,7 +508,9 @@
                      </div>
                      <!-- Speaker -->
                      <div class="speaker">
-                        <img style="height:65px; width:65px;" src="{{url_for('static', filename='user/images/event_schedule_day2/speaker2.jpg')}}" alt="speaker-thumb-two">
+                        <img style="height:65px; width:65px;"
+                           src="{{url_for('static', filename='user/images/event_schedule_day2/speaker2.jpg')}}"
+                           alt="speaker-thumb-two">
                         <span class="name">Dr.Nanditha N M</span>
                      </div>
                      <!-- Subject -->
@@ -486,7 +529,9 @@
                      </div>
                      <!-- Speaker -->
                      <div class="speaker">
-                        <img style="height:65px; width:65px;" src="{{url_for('static', filename='user/images/event_schedule_day2/speaker3.jpg')}}" alt="speaker-thumb-three">
+                        <img style="height:65px; width:65px;"
+                           src="{{url_for('static', filename='user/images/event_schedule_day2/speaker3.jpg')}}"
+                           alt="speaker-thumb-three">
                         <span class="name">Dr. S.Prakash</span>
                      </div>
                      <!-- Subject -->
@@ -505,7 +550,9 @@
                      </div>
                      <!-- Speaker -->
                      <div class="speaker">
-                        <img style="height:65px; width:65px;" src="{{url_for('static', filename='user/images/event_schedule_day2/speaker4.jpg')}}" alt="speaker-thumb-four">
+                        <img style="height:65px; width:65px;"
+                           src="{{url_for('static', filename='user/images/event_schedule_day2/speaker4.jpg')}}"
+                           alt="speaker-thumb-four">
                         <span class="name">Dr. Bharathi</span>
                      </div>
                      <!-- Subject -->
@@ -524,7 +571,9 @@
                      </div>
                      <!-- Speaker -->
                      <div class="speaker">
-                        <img style="height:65px; width:65px;" src="{{url_for('static', filename='user/images/event_schedule_day2/speaker5.jpg')}}" alt="speaker-thumb-five">
+                        <img style="height:65px; width:65px;"
+                           src="{{url_for('static', filename='user/images/event_schedule_day2/speaker5.jpg')}}"
+                           alt="speaker-thumb-five">
                         <span class="name">Dr.E. John Bruce</span>
                      </div>
                      <!-- Subject -->
@@ -539,7 +588,7 @@
       </div>
       <script src="{{url_for('static', filename='user/scripts/jquery.js')}}"></script>
       <script src="{{url_for('static', filename='user/scripts/popper.min.js')}}"></script>
-       </section>
+   </section>
    <!-- schedule end  -->
 
    <!--Speakers starts-->
@@ -867,7 +916,7 @@
             </div>
          </form>
       </div>
-    
+
    </section>
    <!-- Visitors end -->
 
@@ -1054,9 +1103,33 @@
 
    <!-- schedule -->
 
+
+   <script>
+      // Check if the device is mobile
+      function isMobile() {
+         return window.innerWidth <= 768;
+      }
+
+      // Initialize Swiper only on mobile devices
+      if (isMobile()) {
+         const swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+               el: '.swiper-pagination',
+               clickable: true,
+            },
+            loop: true
+         });
+      }
+   </script>
+
    <!-- Counter -->
    <script src="{{url_for('static', filename='user/scripts/jquery.magnific-popup.min.js')}}"></script>
    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
    <!-- Scripts start -->
    <script src="https://unpkg.com/scrollreveal"></script>
